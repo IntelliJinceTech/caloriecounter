@@ -4,10 +4,11 @@ package JinTech.CalorieCounter;
 import lombok.Data;
 
 @Data
-public class FoodDetails {
+public class FoodDetail {
     private String id;
     private String name;
     private String cuisine;
+    public Float portionSize;
     private Integer calorieEstimate;
 
     public enum Macro {
